@@ -21,7 +21,7 @@ public class MultDiv extends Math implements Calc {
 
 	public void Mostrar() {
 		if (Calculo(super.getA(), super.getB()) == null)
-			System.out.println("Erro , Seu bosta!");
+			System.out.println("Ih , errou cara!");
 		else
 			System.out.println(Calculo(super.getA(), super.getB()));
 
