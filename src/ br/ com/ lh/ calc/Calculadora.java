@@ -16,7 +16,7 @@ public class Calculadora {
 
 		Continuar = "S";
 		while (!Continuar.equals("N")) {
-			System.out.println("Digite a operação:");
+			System.out.println("Digite a operaÃ§Ã£o:");
 			op = sc2.nextInt();
 			if (op == 1 || op == 2) {
 				AdiSub ss = new AdiSub();
@@ -27,7 +27,7 @@ public class Calculadora {
 				System.out.println("Digite o numero 2 ");
 				ss.setB(sc1.nextDouble());
 
-				ss.Mostrar();
+				ss.mostrar();
 			} else if (op == 3 || op == 4) {
 				MultDiv ss = new MultDiv();
 				ss.setOper(op);
@@ -37,7 +37,7 @@ public class Calculadora {
 				System.out.println("Digite o numero 2 ");
 				ss.setB(sc1.nextDouble());
 
-				ss.Mostrar();
+				ss.mostrar();
 
 			}
 
