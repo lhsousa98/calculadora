@@ -18,8 +18,8 @@ public abstract class Math {
 	}
 
 	public Math(double a, double b) {
-		this.a = x;
-		this.b = y;
+		this.a = a;
+		this.b = b;
 	}
 
 	public double getA() {
