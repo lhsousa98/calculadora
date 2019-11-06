@@ -5,7 +5,7 @@ public class AdiSub extends Math implements Calc {
 	private int oper;
 
 	@Override
-	public Double Calculo(double a, double b) {
+	public Double calculo(double a, double b) {
 
 		super.setA(a);
 		super.setB(b);
@@ -20,7 +20,7 @@ public class AdiSub extends Math implements Calc {
 
 	}
 
-	public void Mostrar() {
+	public void mostrar() {
 		if (Calculo(super.getA(), super.getB()) == null) {
 			System.out.println("Ih, Errou cara!");
 		}
