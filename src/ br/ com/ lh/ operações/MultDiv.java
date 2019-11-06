@@ -5,7 +5,7 @@ public class MultDiv extends Math implements Calc {
 	private int oper;
 
 	@Override
-	public Double Calculo(double a, double b) {
+	public Double calculo(double a, double b) {
 		super.setA(a);
 		super.setB(b);
 		if (this.oper == 3)
@@ -19,7 +19,7 @@ public class MultDiv extends Math implements Calc {
 			return null;
 	}
 
-	public void Mostrar() {
+	public void mostrar() {
 		if (Calculo(super.getA(), super.getB()) == null)
 			System.out.println("Ih , errou cara!");
 		else
