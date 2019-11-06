@@ -1,7 +1,7 @@
 package br.com.lh.operacoes;
 
 /**
- * Utiliza-se classes abstratas para herança
+ * Utiliza-se classes abstratas para heranÃ§a
  * 
  * @author LH26
  *
@@ -12,12 +12,12 @@ public abstract class Math {
 	private double b;
 
 	/**
-	 * Construtor padrão
+	 * Construtor padrÃ£o
 	 */
 	public Math() {
 	}
 
-	public Math(double x, double y) {
+	public Math(double a, double b) {
 		this.a = x;
 		this.b = y;
 	}
